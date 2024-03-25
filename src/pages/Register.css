@@ -1,0 +1,24 @@
+/* Add this CSS to your existing styles or create a new stylesheet */
+
+form {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+h1 {
+  color: yellow;
+}
+
+.btn-primary {
+  background-color: yellow !important;
+  border-color: yellow !important;
+}
+
+.btn-primary:disabled {
+  background-color: grey !important;
+  border-color: grey !important;
+}
+
+/* You can customize these styles further based on your preferences */

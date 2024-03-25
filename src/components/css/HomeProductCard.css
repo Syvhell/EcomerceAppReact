@@ -1,0 +1,44 @@
+.card {
+  border: none;
+}
+
+.card-img-top {
+  border-radius: 0.25rem 0.25rem 0 0;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  height: 100px;
+  overflow: hidden;
+}
+
+.card-price {
+  font-size: 1.25rem;
+}
+
+.buy-now-btn {
+  background-color: yellow;
+  color: black;
+}
+
+.cart-btn {
+  background-color: transparent;
+  color: white;
+}
+
+.my-3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin-bottom: 1rem;
+  }
+}

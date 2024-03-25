@@ -1,0 +1,19 @@
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.banner-container h1 {
+  font-size: 3rem; /* Adjust the font size as needed */
+}
+
+.banner-container p {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+}
+
+.banner-container .btn {
+  margin-top: 20px; /* Adjust the margin as needed */
+}

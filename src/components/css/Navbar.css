@@ -1,0 +1,53 @@
+.navbar {
+  background-color: black;
+}
+
+.navbar-brand,
+.navbar-nav .nav-item .nav-link {
+  color: white !important;
+  text-decoration: none; /* Remove text decoration */
+}
+
+.custom-toggler .navbar-toggler-icon {
+  color: white !important;
+}
+
+.fa-mobile {
+  color: yellow !important;
+}
+
+.buttons a {
+  color: white !important;
+  text-decoration: none; /* Remove text decoration */
+}
+
+.buttons .nav-link:hover,
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item {
+  color: yellow !important;
+}
+
+.buttons .nav-link:hover i,
+.navbar-nav .nav-item .nav-link:hover i,
+.navbar-nav .nav-item .nav-link.active i {
+  color: yellow !important;
+}
+
+.buttons .btn {
+  color: white !important;
+  transition: color 0.3s ease; /* Add smooth transition for color change */
+}
+
+.buttons a:hover a {
+  color: white !important;
+}
+
+.buttons a:hover .fa {
+  color: yellow !important;
+}
+.custom-link {
+  /* Add your custom styling here */
+  color: #fff; /* Set the desired text color */
+  text-decoration: none !important; /* Remove underline */
+  /* Add any other styles as needed */
+}

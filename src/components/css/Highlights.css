@@ -1,0 +1,80 @@
+/* Add this to your CSS file or style block */
+
+/* Style for the hero section */
+/* ./css/Highlights.css */
+
+/* Style for the hero section */
+.highlight {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.highlight h1 {
+  margin-bottom: 1rem;
+}
+
+.highlight:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adjust shadow on hover */
+}
+
+/* Center the text in the cards */
+.highlight .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* White text color for card content */
+.highlight .text-white {
+  color: white;
+}
+
+/* Background styling */
+.highlights {
+  background-image: url("https://images.samsung.com/ph/smartphones/galaxy-s23-ultra/images/galaxy-s23-ultra-highlights-camera.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardHighlight {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.cardHighlight h2 {
+  margin-bottom: 1rem;
+}
+
+.cardHighlight:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adjust shadow on hover */
+}
+
+/* Center the text in the cards */
+.hero .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust alpha channel for transparency */
+  padding: 1.5rem; /* Adjust padding as needed */
+  border-radius: 8px; /* Optional: Add border-radius to the card body */
+}
+
+/* White text color for card content */
+.cardHighlight .text-white {
+  color: white;
+}

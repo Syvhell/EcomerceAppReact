@@ -1,0 +1,27 @@
+.about {
+  background-image: url("https://images.samsung.com/is/image/samsung/p6pim/ph/feature/164824165/ph-feature-epic-shots-day-and-night-538437087?$FB_TYPE_K_JPG$");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; /* Add text color */
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+section {
+  padding: 20px;
+  color: white; /* Add text color */
+}
+
+.mission-vision {
+  border-top: 2px solid #f7c137;
+  border-bottom: 2px solid #f7c137;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}

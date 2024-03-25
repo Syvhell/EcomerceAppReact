@@ -1,0 +1,16 @@
+/* Hero */
+img {
+  height: 5%;
+}
+.card-text {
+  color: black;
+}
+.hero {
+  background-color: black;
+}
+.carousel-caption1 {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  top: 5%;
+}

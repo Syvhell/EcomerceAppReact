@@ -1,0 +1,89 @@
+/* ProductCard.css */
+
+.card {
+  border: none;
+}
+
+.card-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.card-text {
+  height: 100px;
+  overflow: hidden;
+}
+
+.card-price {
+  font-size: 1.25rem;
+}
+
+.buy-now-btn {
+  background-color: yellow;
+  color: black !important;
+}
+
+.cart-btn {
+  background-color: transparent;
+  color: white;
+}
+
+.my-3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* Custom styles for small screens */
+@media (max-width: 576px) {
+  .col-md-2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .card {
+    font-size: 0.8rem; /* Adjust the font size as needed */
+  }
+
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .buy-now-btn {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem; /* Adjust the font size as needed */
+  }
+}
+
+/* Custom styles for screens between 577px and 767px */
+@media (min-width: 577px) and (max-width: 767px) {
+  .col-md-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .card {
+    font-size: 0.9rem; /* Adjust the font size as needed */
+  }
+
+  .buy-now-btn {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.9rem; /* Adjust the font size as needed */
+  }
+}
+
+/* Custom styles for screens between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-2 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .card {
+    font-size: 1rem; /* Adjust the font size as needed */
+  }
+
+  .buy-now-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 1rem; /* Adjust the font size as needed */
+  }
+}

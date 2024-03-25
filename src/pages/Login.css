@@ -1,0 +1,30 @@
+div.body {
+  background-color: black;
+  color: white;
+}
+
+form {
+  background-color: black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.form-label {
+  color: white;
+}
+
+.form-control {
+  background-color: #333;
+  color: white;
+}
+
+button.btn {
+  background-color: yellow;
+  color: black;
+}
+
+button.btn:hover {
+  background-color: #ffd700;
+  color: black;
+}

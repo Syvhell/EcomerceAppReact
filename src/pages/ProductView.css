@@ -1,0 +1,37 @@
+/* .card-img-top {
+  height: 250px;
+  object-fit: cover;
+} */
+/* Add this CSS in your component's CSS file or style tag */
+.card-img-top {
+  width: 100%; /* Make the image fill its container */
+  height: 10px; /* Maintain aspect ratio */
+}
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 200px; /* Adjust height for small screens */
+  }
+}
+
+/* Media query for medium screens */
+@media (min-width: 576px) and (max-width: 768px) {
+  .card-img-top {
+    height: 250px; /* Adjust height for medium screens */
+  }
+}
+
+/* Media query for large screens */
+@media (min-width: 768px) and (max-width: 992px) {
+  .card-img-top {
+    height: 300px; /* Adjust height for large screens */
+  }
+}
+
+/* Media query for extra-large screens */
+@media (min-width: 992px) {
+  .card-img-top {
+    height: 350px; /* Adjust height for extra-large screens */
+  }
+}
